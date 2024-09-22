@@ -118,5 +118,21 @@ body {
     color: #90fe00;
     text-shadow: 0px 3px 25px ;
 }
+@media(max-width:380px){
+    .card{
+        padding: 40px 17px;
+    }
+    .search{
+        width: 100%;
+    }
+    .search input{
+        padding: 10px 12px;
+        font-size: 12px;
+        /* margin-right: 8px; */
+    }
+    .search button{
+        margin-right: 50px;
+    }
+}
 
 
